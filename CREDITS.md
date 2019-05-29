@@ -78,3 +78,17 @@ See screenshots in [img dir](/img).
 Try again: `Cannot open include file: "portaudio.h": No such file or directory`. Need to install portaudio on Windows....
 
 
+  + https://stackoverflow.com/a/51992497
+  + https://anaconda.org/conda-forge/portaudio
+
+```sh
+conda install -c conda-forge portaudio
+```
+
+Same error message.
+
+  + https://stackoverflow.com/a/52191687
+
+Maybe will work in Python 3.6.
+
+OMG it works.
